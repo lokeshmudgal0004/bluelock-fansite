@@ -207,6 +207,8 @@ section{
 
 .players .content img{
     height: 700px;
+    animation: bounce 2s infinite;
+    z-index: -3;
 }
 
 .players {
@@ -214,6 +216,18 @@ section{
     
 }
 
+@keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-20px);
+    }
+   
+  }
+  
+
+  
 .players2 .heading{
     font-size: 110px;
     color: black;
@@ -245,9 +259,68 @@ section{
 .players2 .content img{
     height: 700px;
     margin-left: 100px;
+    animation: bounce 2s infinite;
 }
 
 .players2 {
     height: 1200px;
     background: #3385ff;
+}
+
+.stream p{
+    text-align: center;
+    font-size: 110px;
+    margin-bottom: 70px;
+}
+.stream u{
+    color: #3385ff;
+}
+.stream span{
+    color: black;
+}
+
+.stream .streamingPartners{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.stream .streamingPartners .individual img{
+    height: 50px;
+    width: 70%;
+    filter: drop-shadow(2px #3385ff);
+    transition: 0.5s ease;
+}
+
+
+
+.stream .streamingPartners .individual{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 400px;
+    width: 25%;
+    align-items: center;
+    border: 2px solid #3385ff;
+    transition: 0.5 s ease;
+}
+
+
+.stream .streamingPartners .individual p{
+    color: black;
+    font-size: 32px;
+}
+#crunchyroll{
+    height: 110px;
+}
+
+.footer{
+    height: 100px;
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    background: #3385ff;
+    text-align: center;
+    color: whitesmoke;
 }
