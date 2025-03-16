@@ -13,3 +13,6 @@ Streaming partners where you can watch Blue Lock.
 Responsive and interactive design.
 
 Explore and relive the excitement of Blue Lock!
+
+SITE IS LIVE NOW AT:-
+https://bluelock-fansite.vercel.app/#
